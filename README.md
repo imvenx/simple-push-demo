@@ -7,10 +7,20 @@ notifications into your web app.
 
 ## Relevant Docs Information
 
-- [Server Side Libraries to Help Send Push Messages ](https://github.com/web-push-libs/)
-- [Blog Post on Encrypting Payload Data](https://developers.google.com/web/updates/2016/03/web-push-encryption)
-- [Blog Post on VAPID](https://developers.google.com/web/updates/2016/07/web-push-interop-wins)
-- [Web Push Book](https://web-push-book.gauntface.com)
+### Core Documentation
+- [Push API - MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Push_API) - Official API reference
+- [Using the Notifications API - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API) - How to display notifications
+- [The Web Push Protocol - web.dev](https://web.dev/articles/push-notifications-web-push-protocol?hl=en) - Technical details of the protocol
+- [Web Push Book](https://web-push-book.gauntface.com) - Comprehensive guide to implementing web push
+
+### Platform-Specific Documentation
+- [Sending Web Push Notifications in Web Apps - Apple Developer](https://developer.apple.com/documentation/usernotifications/sending-web-push-notifications-in-web-apps-and-browsers) - Safari and iOS implementation
+- [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - Google's messaging solution for web and mobile
+
+### Implementation Resources
+- [Server Side Libraries to Help Send Push Messages](https://github.com/web-push-libs/) - Collection of libraries in various languages
+- [Web Push API Best Practices - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Push_API/Best_Practices) - Guidelines for ethical use of push notifications
+- [W3C Push API Specification](https://www.w3.org/TR/push-api/) - Last updated September 2024
 
 ## Demo
 
