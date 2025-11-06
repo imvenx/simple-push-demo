@@ -1,12 +1,12 @@
 {
   "type": "module",
   "devDependencies": {
-    "ava": "6.1.2",
-    "chai": "5.1.0",
-    "eslint": "8.57.0",
+    "ava": "6.4.1",
+    "chai": "6.2.0",
+    "eslint": "9.39.1",
     "eslint-config-google": "0.14.0",
-    "mocha": "10.4.0",
-    "puppeteer": "22.6.2",
+    "mocha": "11.7.5",
+    "puppeteer": "24.29.1",
     "static-server": "2.2.1"
   },
   "private": true,
@@ -22,6 +22,6 @@
     "vercel": "npx vercel dev"
   },
   "dependencies": {
-    "express": "4.20.0"
+    "express": "5.1.0"
   }
 }
