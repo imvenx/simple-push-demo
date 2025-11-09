@@ -17,6 +17,8 @@ app.use(function(req, res, next) {
 
 app.post('/api/v3/sendpush', async function(request, res) {
 	try {
+		await new Promise(resolve => setTimeout(resolve, 10000));
+
 		const requestData = request.body;
 		const url = requestData.endpoint;
 		const options = {
